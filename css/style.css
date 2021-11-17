@@ -111,3 +111,29 @@ a:hover{
     color: #00bffe;
     display: block;
     font-weight: 600;}
+
+.page-clients h2 span{
+    color: #85c8ff;
+    font-size: 18px;
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.page-clients h2{
+    font-size: 40px;
+    /* color: #fff*/
+    color: #85c8ff;
+    font-weight: 600;
+} 
+.page-plan h2 span {
+    color: #1085e4;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    text-transform: uppercase;
+}
+.page-plan h2 {
+    color: #192b59;
+    font-size: 40px;
+    font-weight: 600;
+}
