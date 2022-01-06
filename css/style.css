@@ -28,7 +28,7 @@ max-width: 540px;}
     color: #6e7ea9;
     text-transform: uppercase;
     display: flex;
-    letter-spacing: 2.5;}
+    }
 .nav>li{
     padding: 0 25px;
 }
@@ -42,6 +42,7 @@ a:hover{
     background-color: #1085e4;
     border: 1px solid #1085e4;
     padding: 19px 63px;
+    letter-spacing: 2.5;
 }
 .btn-free:hover {
   color: #1085e4;
@@ -197,6 +198,10 @@ text-align: center;
     font-size: 25px;
     font-weight: 800;
 }
+.box-price-item ul{
+    margin-bottom: 61px;
+}
+
 .active h3{
     /* color: #fff*/
     color:#1085e4;
@@ -215,10 +220,11 @@ text-align: center;
     font-weight: 800;}
 .btn1{
     color: #7581a1;
-        font-weight: 400;
-        background-color: #f5faff; 
-        padding: 20px 30px;
-        border: 1px solid #7581a1;
+    font-weight: 700;
+    font-size: 12px;
+    background: transparent;
+    padding: 20px 75px;
+    border: 2px solid #7581a1;
     }
 .btn1:hover {
       color: #f5faff;
@@ -227,9 +233,10 @@ text-align: center;
     }
 .btn2{
     color: #fff;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 12px;
     background-color: #1085e4;
-    padding: 19px 43px;
+    padding: 21px 58px;
     border: 1px solid #1085e4;
     border-radius: 50px;
 }
@@ -237,15 +244,17 @@ text-align: center;
   color: #1085e4;
   background: #d3e9ff;
   border: 1px solid #1085e4;
-  padding: 19px 43px;
+  padding: 21px 58px;
+  font-size: 12px;
   border-radius: 50px;
 }
 .btn3{
-    color: #fff;
-    font-weight: 400;
+    color: rgb(121, 121, 121);
+    font-weight: 700;
     background-color: #cbdbe8;
     border: 1px solid #cbdbe8;
-    padding: 19px 41px;
+    font-size: 12px;
+    padding: 21px 52px;
 }
 .btn3:hover {
     color: #fff;
@@ -303,9 +312,9 @@ text-align: center;
 }
 .btn4{
     color: #fff;
-    font-weight: 400;
+    font-weight: 700;
     background-color: #1085e4;
-    padding: 15px 58px;
+    padding: 15px 55px;
     border: 1px solid #1085e4;
     border-radius: 50px;
 }
@@ -313,14 +322,14 @@ text-align: center;
   color: #1085e4;
   background: #d3e9ff;
   border: 1px solid #1085e4;
-  padding: 15px 58px;
+  padding: 15px 55px;
   border-radius: 50px;
 }
 .btn2_1{
-    color: #fff;
-    font-weight: 400;
+    olor: #fff;
+    font-weight: 700;
     background-color: #1085e4;
-    padding: 19px 69px;
+    padding: 20px 67px;
     border: 1px solid #1085e4;
     border-radius: 50px;
 }
@@ -328,6 +337,22 @@ text-align: center;
   color: #1085e4;
   background: #d3e9ff;
   border: 1px solid #1085e4;
-  padding: 19px 69px;
+  padding: 20px 67px;
+  border-radius: 50px;
+}
+.btn2_2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #1085e4;
+    padding: 21px 75px;
+    border: 1px solid #1085e4;
+    border-radius: 50px;
+}
+.btn2_2:hover {
+  color: #1085e4;
+  background: #d3e9ff;
+  border: 1px solid #1085e4;
+  padding: 21px 75px;
   border-radius: 50px;
 }
