@@ -4,6 +4,10 @@ body{
     font-size: 16px;
     color: #7581a1;
     line-height: 26px;}
+.wrap{
+    max-width: 1110px;
+    margin: 0 auto;
+}
 a{
     text-decoration: none;
     border-radius: 50px;
@@ -16,26 +20,36 @@ ul, ol{
 h1{
     font-size: 80px;
     font-weight: 600;
-    color: #192b59;}
+    color: #192b59;
+max-width: 540px;}
 .nav{
     font-size: 12px;
     font-weight: 700;
     color: #6e7ea9;
-    text-transform: uppercase;}
-
+    text-transform: uppercase;
+    display: flex;
+    letter-spacing: 2.5;}
+.nav>li{
+    padding: 0 25px;
+}
 
 a:hover{
     color:lightblue;}
 .btn-free{
     color: #fff;
     font-weight: 400;
+    font-size: 12px;
     background-color: #1085e4;
     border: 1px solid #1085e4;
+    padding: 19px 63px;
 }
 .btn-free:hover {
   color: #1085e4;
   background: #d3e9ff;
   border: 1px solid #1085e4;
+}
+.btn-grup a+a {
+    margin-left: 15px;
 }
 .grid h2{
     font-size: 40px;
@@ -75,15 +89,7 @@ a:hover{
     color: #b1c3ee;
     font-weight: 400;}
 
-.button{
-        text-decoration: none;
-        color: #ccc;
-        text-transform: uppercase;
-        background: #222;
-        padding: 20px 30px;
-        border-radius: 30px;
-        border: 3px solid #222;
-}
+
 .page-software h2{
     font-size: 50px;
     color: #192b59;
@@ -94,18 +100,34 @@ a:hover{
 .page-stat h2{
     font-size: 50px;
     color: #192b59;
-    font-weight: 600;}
+    font-weight: 600;
+    margin-bottom: -1.5px;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 75px;}
 .page-stat h2 span{
     font-size: 13px;
     color: #00bffe;
-    display: block;}
+    display: block;
+}
+
 .page-stat ul span{
-    font-size: 40px;
+    font-size: 60px;
     color: #bacbdc;
-    font-weight: 900;}
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    display: block;}
 .page-stat ul {
     color: #1085e4;
-    display: block;}
+    font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2.5px;
+text-align: center;
+}
+
 .page-app h2{
     font-size: 50px;
     font-weight: 600;
@@ -194,10 +216,8 @@ a:hover{
 .btn1{
     color: #7581a1;
         font-weight: 400;
-        background-color: #f5faff;
-        
-        /*padding: 20px 30px;*/
-        
+        background-color: #f5faff; 
+        padding: 20px 30px;
         border: 1px solid #7581a1;
     }
 .btn1:hover {
@@ -209,21 +229,23 @@ a:hover{
     color: #fff;
     font-weight: 400;
     background-color: #1085e4;
-    
-    /*padding: 20px 30px;*/
-    
+    padding: 19px 43px;
     border: 1px solid #1085e4;
+    border-radius: 50px;
 }
 .btn2:hover {
   color: #1085e4;
   background: #d3e9ff;
   border: 1px solid #1085e4;
+  padding: 19px 43px;
+  border-radius: 50px;
 }
 .btn3{
     color: #fff;
     font-weight: 400;
     background-color: #cbdbe8;
     border: 1px solid #cbdbe8;
+    padding: 19px 41px;
 }
 .btn3:hover {
     color: #fff;
@@ -266,4 +288,46 @@ a:hover{
     color: #1085e4;
     /*color: #fff;*/
     font-size: 17px;
+}
+.list-start{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+
+
+.page-stat{
+    background-color: #edf6ff;
+    padding: 115px 0 95px 0;
+}
+.btn4{
+    color: #fff;
+    font-weight: 400;
+    background-color: #1085e4;
+    padding: 15px 58px;
+    border: 1px solid #1085e4;
+    border-radius: 50px;
+}
+.btn4:hover {
+  color: #1085e4;
+  background: #d3e9ff;
+  border: 1px solid #1085e4;
+  padding: 15px 58px;
+  border-radius: 50px;
+}
+.btn2_1{
+    color: #fff;
+    font-weight: 400;
+    background-color: #1085e4;
+    padding: 19px 69px;
+    border: 1px solid #1085e4;
+    border-radius: 50px;
+}
+.btn2_1:hover {
+  color: #1085e4;
+  background: #d3e9ff;
+  border: 1px solid #1085e4;
+  padding: 19px 69px;
+  border-radius: 50px;
 }
