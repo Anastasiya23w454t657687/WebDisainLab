@@ -8,6 +8,10 @@ body{
     max-width: 1110px;
     margin: 0 auto;
 }
+.log1{
+    display: inline-flex;
+    margin-bottom: 64px;
+}
 a{
     text-decoration: none;
     border-radius: 50px;
@@ -21,18 +25,27 @@ h1{
     font-size: 80px;
     font-weight: 600;
     color: #192b59;
-max-width: 540px;}
+    max-width: 540px;
+    line-height: 89px;
+    letter-spacing: -2.5px;
+    margin-bottom: 64px;}
 .nav{
     font-size: 12px;
     font-weight: 700;
     color: #6e7ea9;
     text-transform: uppercase;
     display: flex;
+    letter-spacing: 2.5px;
+    margin: 13px 0;
     }
 .nav>li{
     padding: 0 25px;
 }
-
+.page-heder{
+    margin-top: 56px;
+    margin-bottom: 510px;
+    background-image: url(../img/фон1.png);
+}
 a:hover{
     color:lightblue;}
 .btn-free{
@@ -41,8 +54,8 @@ a:hover{
     font-size: 12px;
     background-color: #1085e4;
     border: 1px solid #1085e4;
-    padding: 19px 63px;
-    letter-spacing: 2.5;
+    padding: 21px 50px;
+    transform: 0.5s;
 }
 .btn-free:hover {
   color: #1085e4;
@@ -51,6 +64,10 @@ a:hover{
 }
 .btn-grup a+a {
     margin-left: 15px;
+    margin-bottom: 50px;
+}
+.btn-grup{
+    margin-bottom: 330px;
 }
 .grid h2{
     font-size: 40px;
@@ -68,6 +85,157 @@ a:hover{
     font-size: 14px;
     font-weight: 600;
     color: #1085e4;}
+
+    .title-h2 {
+        font-size: 50px;
+        font-weight: 600;
+        color: #192b59;
+        line-height: 1.2;
+        letter-spacing: -1.5px;
+    }
+    
+    .title-h2 span {
+        display: block;
+        font-size: 16px;
+        font-weight: 800;
+        color: #1085e4;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    
+    .title-h2-40 {
+        font-size: 40px;
+        font-weight: 600;
+        color: #192b59;
+        line-height: 1.2;
+        letter-spacing: -1.1px;
+    }
+    
+    .title-h2-40 span {
+        display: block;
+        font-size: 18px;
+        font-weight: 800;
+        color: #1085e4;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 3.5px;
+    }
+    
+    
+    /* Конец заголовки  */
+    
+    /* Блок page-grid */
+    
+    .grid h2 {
+        font-size: 40px;
+        color: #192b59;
+        font-weight: 700;
+    }
+    
+    .grid h2 span {
+        font-size: 14px;
+        color: #1085e4;
+        display: block;
+    }
+    
+    .grid-item h3 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #192b59;
+    }
+    .grid-item a {
+        font-size: 14px;
+        font-weight: 600;
+        color: #1085e4;
+    }
+    
+    
+    /* Конец Блок page-grid */
+    
+    /* PAGE */
+    
+    .page-company {
+        background-image: url(../img/company-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px 0 100px 0;
+    }
+    
+    /* END PAGE */
+    
+    .grid-item{
+        text-align: center;
+        box-shadow: 0 0 5px #9aa3ba;
+    }
+    .grid-icon{
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        display: block;
+        height: 90px;
+    }
+    .grid-icon-1{
+        background-image: url(../img/bg3_icon1.png);
+        background-size: 55px 70px;
+        background-position: center;
+    }
+    .grid-icon-2{
+        background-image: url(../img/bg3_icon2.png);
+        width: 77px;
+        height: 77px;
+    }
+    .grid-icon-3{
+        background-image: url(../img/bg3_icon3.png);
+        width: 77px;
+        height: 77px;
+    }
+    .grid-icon-4{
+        background-image: url(../img/bg3_icon4.png);
+        width: 77px;
+        height: 77px;
+    }
+    .grid-icon-5{
+        background-image: url(../img/bg3_icon5.png);
+        width: 77px;
+        height: 77px;
+    }
+    .grid-icon-6{
+        background-image: url(../img/bg3_icon6.png);
+        width: 77px;
+        height: 77px;
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-areas: "A B C" "D B C" "D E F" "G H H";
+        grid-gap: 35px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .grid-item-titl{
+        grid-area: A;
+    }
+    .grid-item-1{
+        grid-area: B;
+    }
+    .grid-item-2{
+        grid-area: C;
+    }
+    .grid-item-3{
+        grid-area: D;
+    }
+    .grid-item-4{
+        grid-area: E;
+    }
+    .grid-item-5{
+        grid-area: F;
+    }
+    .grid-item-6{
+        grid-area: G;
+    }
+    .grid-item-text{
+        grid-area: H;
+    }
 .grid-leb h4{
     font-size: 17px;
     color: #1085e4;
@@ -78,8 +246,7 @@ a:hover{
     font-weight: 600;}
 .page-subscribe h2{
     font-size: 50px;
-    /* color: #fff; должнобыть так но на белом не видно позже исправлю*/
-    color: #00bffe;
+    color: #fff;
     font-weight: 600}
 .page-subscribe h2 span{
     font-size: 12px;
@@ -167,8 +334,7 @@ text-align: center;
 
 .page-clients h2{
     font-size: 40px;
-    /* color: #fff*/
-    color: #85c8ff;
+    color: #fff;
     font-weight: 600;} 
 
 .page-clients h4 span{
@@ -203,8 +369,7 @@ text-align: center;
 }
 
 .active h3{
-    /* color: #fff*/
-    color:#1085e4;
+    color: #fff;
     font-size: 25px;
     font-weight: 800;}
 
@@ -214,8 +379,7 @@ text-align: center;
     font-weight: 400;
 }
 .active p{
-    /* color: #fff*/
-    color:#ff1;
+    color: #fff;
     font-size: 25px;
     font-weight: 800;}
 .btn1{
@@ -270,8 +434,7 @@ text-align: center;
 
 .box-team h3{
     font-size: 40px;
-    /* color: #fff*/
-    color: #85c8ff;
+    color: #fff;
     font-weight: 600;} 
 .t1{
     font-size: 12px;
@@ -326,7 +489,7 @@ text-align: center;
   border-radius: 50px;
 }
 .btn2_1{
-    olor: #fff;
+    color: #fff;
     font-weight: 700;
     background-color: #1085e4;
     padding: 20px 67px;
@@ -356,3 +519,29 @@ text-align: center;
   padding: 21px 75px;
   border-radius: 50px;
 }
+
+.nav1{
+    padding: 105px;
+    display: flex;
+}
+.nav1>li{
+    padding: 0 55px;
+}
+.page-company{
+    height: 30vh;
+	background-color: #1085e4;
+	
+    
+}
+.page-subscribe{
+    height: 48vh;
+    background: linear-gradient(90deg, #0a2090, #2377cd);
+	
+}
+.robofon{
+    display: flex;
+}
+.kr1{
+    display: block;
+}
+
